@@ -1,0 +1,45 @@
+.statusContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em 0.5em 0.5em 1em;
+  padding: 1em;
+  width: 60%;
+  background: gray;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em 1em 0.5em 0.5em;
+  padding: 1em;
+  width: 30%;
+  background: gray;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.value {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .value {
+    font-size: 150%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .value {
+    font-size: 115%;
+  }
+}
